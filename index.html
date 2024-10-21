@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 1. Name your web page -->
-    <title></title>
+    <title>Test1</title>
 
     <!-- 7. Import Stylesheet -->
+     <link rel="stylesheet" href="styles.css">
 
 
 </head>
@@ -14,17 +15,25 @@
 <body>
     <!-- 2. Name and Info -->
     <header>
-
+        <h1>Kenan Limo</h1>
+        <h2>Student at UoG</h2>
+        <p>Tengo dieciocho anos</p>
+        <p>Guelph,ON</p>
+        <p>email: </p>
     </header>
 
     <!-- 3. About Me -->
     <section>
         <!-- 3a. The About Me Section -->
+        <div class="aboutme"> 
+            <h2>About me</h2>
+            <p>Soy...</p>
 
+        </div>
 
         <!-- 4. Add a Picture -->
         <div>
-
+            <img src="images/photo.png" style="width: 200px" class="mypicture"/>
         </div>
     </section>
 
@@ -33,10 +42,24 @@
     <section class="projects">
         <div>
             <!-- 5a. Add project title -->
-            <h4></h4>
+            <h4><a href="https://github.com/kLim-lab/WebBasics"> Portfolio project </a></h4>
 
             <!-- 5b. Add project description -->
+            <ul> <!--UNORRDERED LIST-->
+                <li>Learned about HTML</li>
+                <li>Learned about VS Code</li>
+            </ul>
 
+        </div>
+        <div>
+            <!-- 5a. Add project title -->
+            <h4><a href="https://github.com/kLim-lab/WebBasics"> Calculator </a></h4>
+
+            <!-- 5b. Add project description -->
+            <ul> <!--UNORRDERED LIST-->
+                <li>Added addition</li>
+                <li>Edited subtraction</li>
+            </ul>
 
         </div>
     </section>
@@ -46,6 +69,7 @@
         <h2>Connect With Me!</h2>
         <!-- 6a. Make a button -->
         <!-- 6b. Make it redirectable -->
+        <a href="https://linkedin.com" target="_blank"><button>LinkedIn</button></a>
 
     </footer>
 </body>
